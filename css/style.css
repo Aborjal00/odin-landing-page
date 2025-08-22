@@ -60,7 +60,7 @@ ul {
 
 .header-information {
     display: flex;
-    padding: 20px 30px;
+    padding: 10px 30px;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
@@ -71,6 +71,39 @@ ul {
     flex-direction: column;
     gap: 1rem;
 }
+
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.main-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.mission div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    justify-content: center;
+
+    width: 180px;
+    
+
+}
+
+.pink {
+    background-color: pink;
+}
+
 
 
 footer {
