@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: "Roboto", sans-serif;
-    min-width: 35%;
+    min-width: 45%;
 }
 
 header, main, footer {
@@ -58,6 +58,11 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 1rem;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header-information {
@@ -168,3 +173,49 @@ footer {
     
 }
 
+/* EXTRA PAGES */
+
+.pages-extra {
+    height: 100vh;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pages-gallery {
+    height: 100vh;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px;
+}
+
+.pages-gallery  h1{
+    margin-bottom: 20px;
+}
+
+.about-btn {
+    padding: 10px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+.gallery-section {
+    border: 5px double #E5E7EB;
+    width: 300px;
+    height: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+}
