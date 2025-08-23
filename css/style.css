@@ -94,16 +94,35 @@ ul {
     gap: 1rem;
     padding: 10px;
     justify-content: center;
-
-    width: 180px;
+    align-items: center;
+    width: 2000px;
     
-
 }
 
-.pink {
-    background-color: pink;
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 5px;
+    font-size: 36px;
+    padding: 10px 50px;
+    
+    
 }
 
+.quote .words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote .author {
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+    margin-top: 5px;
+}
 
 
 footer {
